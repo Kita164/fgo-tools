@@ -57,6 +57,6 @@ python3 scripts/build-data.py --refresh  # 强制重新下载
 
 - `/` 首页
 - `/bond` 组合查询
-- `/bond/groups` 按礼装看对应从者
+- `/bond/groups` 按礼装看对应从者。礼装可以多选，结果是同时满足的从者，并给出合计加成
 - `/bond/servants` 按从者反查适用礼装和合计
 - `/updates` 国服更新追踪（占位，还没做）

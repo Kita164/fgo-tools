@@ -99,9 +99,9 @@ img { max-width: 100%; }
 
 .subnav {
   display: flex;
+  flex-wrap: wrap;
   gap: 6px;
   margin: -8px 0 20px;
-  overflow-x: auto;
 }
 
 h1 { font-size: 30px; line-height: 1.25; margin: 0 0 8px; font-weight: 680; }
@@ -165,7 +165,7 @@ h2 { font-size: 20px; margin: 28px 0 10px; }
   border-radius: 10px;
   padding: 8px 12px;
 }
-.chips { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 2px; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
 .chips button, .check {
   flex: none;
   border: 1px solid var(--line);
@@ -346,18 +346,30 @@ h2 { font-size: 20px; margin: 28px 0 10px; }
 .kv div { background: var(--bg); border-radius: 10px; padding: 8px 10px; }
 .kv span { display: block; color: var(--muted); font-size: 12px; }
 
-.ce-picks { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 6px; margin-bottom: 12px; }
+.ce-picks {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(148px, 1fr));
+  gap: 8px;
+  margin-bottom: 8px;
+}
 .ce-picks button {
-  flex: none;
   border: 1px solid var(--line);
   background: var(--surface);
   border-radius: 12px;
-  padding: 6px 10px;
-  max-width: 220px;
+  padding: 8px 10px;
   text-align: left;
+  min-width: 0;
 }
-.ce-picks button.on { border-color: var(--navy); background: var(--navy-soft); }
-.ce-picks small { display: block; color: var(--muted); }
+.ce-picks button.on {
+  border-color: var(--navy);
+  background: var(--navy-soft);
+  box-shadow: inset 0 0 0 1px var(--navy);
+}
+.ce-picks .pick-name { display: block; font-size: 14px; font-weight: 650; line-height: 1.35; }
+.ce-picks small { display: block; color: var(--muted); font-size: 12px; line-height: 1.35; }
+.pick-bar { display: flex; align-items: center; gap: 12px; margin: 0 0 14px; }
+.pick-bar .count { margin: 0; }
+.btn:disabled, .pick-bar button:disabled { opacity: 0.45; cursor: default; }
 
 .empty { color: var(--muted); padding: 12px 0; }
 .site-footer { margin-top: 36px; color: var(--faint); font-size: 12px; }
