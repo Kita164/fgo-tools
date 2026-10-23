@@ -186,6 +186,54 @@ export function servantsForCe(ceId: number): { servant: Servant; mask: number; p
   return rows
 }
 
+export interface CeServantHit {
+  servant: Servant
+  partial: boolean
+  base: number
+  mlb: number
+  flatBase: number
+  flatMlb: number
+}
+
+/** Servants who qualify for every listed CE. Partial when any one of those matches is only some ascensions or costumes. */
+export function servantsForCes(ceIds: number[]): CeServantHit[] {
+  const ids = ceIds.filter((id) => ceById.has(id))
+  if (!ids.length) return []
+  const byCe = ids.map((id) => {
+    const map = new Map<number, boolean>()
+    for (const row of servantsForCe(id)) map.set(row.servant.id, row.partial)
+    return map
+  })
+  const sum = ids
+    .map((id) => partTotals(ceById.get(id)!, 1))
+    .reduce(
+      (acc, totals) => ({
+        base: acc.base + totals.base,
+        mlb: acc.mlb + totals.mlb,
+        flatBase: acc.flatBase + totals.flatBase,
+        flatMlb: acc.flatMlb + totals.flatMlb,
+      }),
+      { base: 0, mlb: 0, flatBase: 0, flatMlb: 0 },
+    )
+  const hits: CeServantHit[] = []
+  for (const [servantId, firstPartial] of byCe[0]) {
+    let partial = firstPartial
+    let ok = true
+    for (let index = 1; index < byCe.length; index += 1) {
+      const rowPartial = byCe[index].get(servantId)
+      if (rowPartial === undefined) {
+        ok = false
+        break
+      }
+      if (rowPartial) partial = true
+    }
+    if (!ok) continue
+    hits.push({ servant: servantById.get(servantId)!, partial, ...sum })
+  }
+  hits.sort((a, b) => Number(a.partial) - Number(b.partial) || a.servant.no - b.servant.no)
+  return hits
+}
+
 export interface Applicable {
   ce: CraftEssence
   mask: number

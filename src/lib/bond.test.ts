@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { applicableTo, bestStack, data, evaluate, servantsForCe } from './bond'
+import { applicableTo, bestStack, data, evaluate, servantsForCe, servantsForCes } from './bond'
 
 const mash = data.servants.find((servant) => servant.no === 1)!
 const bride = data.ces.find((ce) => ce.no === 2233)!
@@ -79,6 +79,22 @@ describe('combo', () => {
     expect(hit?.partial).toBe(true)
     expect(hit?.base).toBe(8)
     expect(hit?.mlb).toBe(40)
+  })
+
+  it('intersects per-CE groups and sums one copy of each', () => {
+    const rows = servantsForCes([bride.id, report.id])
+    const mashHit = rows.find((row) => row.servant.id === mash.id)
+    const hibiki = data.servants.find((servant) => servant.no === 416)!
+    const hibikiHit = rows.find((row) => row.servant.id === hibiki.id)
+    expect(mashHit?.partial).toBe(false)
+    expect(mashHit?.base).toBe(8)
+    expect(mashHit?.mlb).toBe(40)
+    expect(hibikiHit?.partial).toBe(true)
+    expect(hibikiHit?.mlb).toBe(40)
+    const saber = data.ces.find((ce) => ce.no === 2607)!
+    expect(servantsForCes([bride.id, saber.id]).some((row) => row.servant.id === mash.id)).toBe(false)
+    expect(servantsForCes([bride.id]).length).toBe(servantsForCe(bride.id).length)
+    expect(servantsForCes([])).toEqual([])
   })
 
   it('sums every CE Mash can use on one form', () => {
