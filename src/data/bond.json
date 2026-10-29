@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-10-24 06:48 UTC",
+    "updated": "2026-10-29 07:56 UTC",
     "servantCount": 471,
     "cnServantCount": 447,
     "jpLatest": {
@@ -5223,7 +5223,7 @@
       "rarity": 5,
       "obtain": "魔力棱镜兑换",
       "face": "https://static.atlasacademy.io/JP/Faces/f_94074800.png",
-      "text": "关卡通关时获得的〔兽科从者〕的牵绊点数提升20%",
+      "text": "关卡通关时获得的〔兽科从者〕的牵绊点数增加20%",
       "textFrom": "cn",
       "textJp": "クエストクリア時に得られる〔ケモノ科のサーヴァント〕の絆を20%増やす",
       "parts": [
@@ -5249,7 +5249,7 @@
       "rarity": 4,
       "obtain": "活动赠送",
       "face": "https://static.atlasacademy.io/JP/Faces/f_93081000.png",
-      "text": "关卡通关时获得的〔Fate/stay night从者〕的牵绊点数提升10%",
+      "text": "关卡通关时获得的〔Fate/stay night从者〕的牵绊点数增加10%",
       "textFrom": "cn",
       "textJp": "クエストクリア時に得られる〔Fate/stay nightのサーヴァント〕の絆を10%増やす",
       "parts": [
@@ -5275,7 +5275,7 @@
       "rarity": 4,
       "obtain": "活动赠送",
       "face": "https://static.atlasacademy.io/JP/Faces/f_93081100.png",
-      "text": "关卡通关时获得的〔Fate/stay night从者〕的牵绊点数提升10%",
+      "text": "关卡通关时获得的〔Fate/stay night从者〕的牵绊点数增加10%",
       "textFrom": "cn",
       "textJp": "クエストクリア時に得られる〔Fate/stay nightのサーヴァント〕の絆を10%増やす",
       "parts": [
@@ -5301,7 +5301,7 @@
       "rarity": 4,
       "obtain": "活动赠送",
       "face": "https://static.atlasacademy.io/JP/Faces/f_93081200.png",
-      "text": "关卡通关时获得的〔Fate/stay night从者〕的牵绊点数提升10%",
+      "text": "关卡通关时获得的〔Fate/stay night从者〕的牵绊点数增加10%",
       "textFrom": "cn",
       "textJp": "クエストクリア時に得られる〔Fate/stay nightのサーヴァント〕の絆を10%増やす",
       "parts": [
@@ -5327,7 +5327,7 @@
       "rarity": 4,
       "obtain": "活动赠送",
       "face": "https://static.atlasacademy.io/JP/Faces/f_93081300.png",
-      "text": "关卡通关时获得的〔Fate/stay night从者〕的牵绊点数提升10%",
+      "text": "关卡通关时获得的〔Fate/stay night从者〕的牵绊点数增加10%",
       "textFrom": "cn",
       "textJp": "クエストクリア時に得られる〔Fate/stay nightのサーヴァント〕の絆を10%増やす",
       "parts": [
@@ -5353,7 +5353,7 @@
       "rarity": 4,
       "obtain": "活动赠送",
       "face": "https://static.atlasacademy.io/JP/Faces/f_93081400.png",
-      "text": "关卡通关时获得的〔Fate/stay night从者〕的牵绊点数提升10%",
+      "text": "关卡通关时获得的〔Fate/stay night从者〕的牵绊点数增加10%",
       "textFrom": "cn",
       "textJp": "クエストクリア時に得られる〔Fate/stay nightのサーヴァント〕の絆を10%増やす",
       "parts": [
@@ -5379,7 +5379,7 @@
       "rarity": 4,
       "obtain": "活动赠送",
       "face": "https://static.atlasacademy.io/JP/Faces/f_93081500.png",
-      "text": "关卡通关时获得的〔Fate/stay night从者〕的牵绊点数提升10%",
+      "text": "关卡通关时获得的〔Fate/stay night从者〕的牵绊点数增加10%",
       "textFrom": "cn",
       "textJp": "クエストクリア時に得られる〔Fate/stay nightのサーヴァント〕の絆を10%増やす",
       "parts": [
@@ -5405,7 +5405,7 @@
       "rarity": 4,
       "obtain": "活动赠送",
       "face": "https://static.atlasacademy.io/JP/Faces/f_93081600.png",
-      "text": "关卡通关时获得的〔Fate/stay night从者〕的牵绊点数提升10%",
+      "text": "关卡通关时获得的〔Fate/stay night从者〕的牵绊点数增加10%",
       "textFrom": "cn",
       "textJp": "クエストクリア時に得られる〔Fate/stay nightのサーヴァント〕の絆を10%増やす",
       "parts": [
@@ -5431,7 +5431,7 @@
       "rarity": 5,
       "obtain": "魔力棱镜兑换",
       "face": "https://static.atlasacademy.io/JP/Faces/f_94077400.png",
-      "text": "关卡通关时获得的〔活在当下的人类(部分拟似从者、亚从者等)〕的牵绊点数提升20%",
+      "text": "关卡通关时获得的〔活在当下的人类(部分拟似从者、亚从者等)〕的牵绊点数增加20%",
       "textFrom": "cn",
       "textJp": "クエストクリア時に得られる〔今を生きる人類(一部の疑似サーヴァント、デミ・サーヴァントなど)〕の絆を20%増やす",
       "parts": [
@@ -5457,7 +5457,7 @@
       "rarity": 5,
       "obtain": "魔力棱镜兑换",
       "face": "https://static.atlasacademy.io/JP/Faces/f_94078500.png",
-      "text": "关卡通关时获得的〔秩序且善〕特性的牵绊点数提升20%",
+      "text": "关卡通关时获得的〔秩序且善〕特性的牵绊点数增加20%",
       "textFrom": "cn",
       "textJp": "クエストクリア時に得られる〔秩序かつ善〕特性の絆を20%増やす",
       "parts": [
@@ -5483,7 +5483,7 @@
       "rarity": 5,
       "obtain": "魔力棱镜兑换",
       "face": "https://static.atlasacademy.io/JP/Faces/f_94080600.png",
-      "text": "关卡通关时获得的〔魔术师〕职阶的牵绊点数提升20%",
+      "text": "关卡通关时获得的〔魔术师〕职阶的牵绊点数增加20%",
       "textFrom": "cn",
       "textJp": "クエストクリア時に得られる〔キャスター〕クラスの絆を20%増やす",
       "parts": [
@@ -5509,7 +5509,7 @@
       "rarity": 5,
       "obtain": "魔力棱镜兑换",
       "face": "https://static.atlasacademy.io/JP/Faces/f_94082200.png",
-      "text": "关卡通关时获得的〔骑兵〕职阶的牵绊点数提升20%",
+      "text": "关卡通关时获得的〔骑兵〕职阶的牵绊点数增加20%",
       "textFrom": "cn",
       "textJp": "クエストクリア時に得られる〔ライダー〕クラスの絆を20%増やす",
       "parts": [
@@ -5535,7 +5535,7 @@
       "rarity": 5,
       "obtain": "魔力棱镜兑换",
       "face": "https://static.atlasacademy.io/JP/Faces/f_94083900.png",
-      "text": "关卡通关时获得的〔拥有灵衣之人〕的牵绊点数提升20%",
+      "text": "关卡通关时获得的〔拥有灵衣之人〕的牵绊点数增加20%",
       "textFrom": "cn",
       "textJp": "クエストクリア時に得られる〔霊衣を持つ者〕の絆を20%増やす",
       "parts": [
@@ -5561,7 +5561,7 @@
       "rarity": 5,
       "obtain": "魔力棱镜兑换",
       "face": "https://static.atlasacademy.io/JP/Faces/f_94085900.png",
-      "text": "关卡通关时获得的〔秩序的女性〕的牵绊点数提升20%",
+      "text": "关卡通关时获得的〔秩序的女性〕的牵绊点数增加20%",
       "textFrom": "cn",
       "textJp": "クエストクリア時に得られる〔秩序の女性〕の絆を20%増やす",
       "parts": [
@@ -5587,7 +5587,7 @@
       "rarity": 5,
       "obtain": "魔力棱镜兑换",
       "face": "https://static.atlasacademy.io/JP/Faces/f_94088000.png",
-      "text": "关卡通关时获得的〔拥有星之力的从者〕或〔恶〕特性的牵绊点数提升20%",
+      "text": "关卡通关时获得的〔拥有星之力的从者〕或〔恶〕特性的牵绊点数增加20%",
       "textFrom": "cn",
       "textJp": "クエストクリア時に得られる〔星の力を持つサーヴァント〕または〔悪〕特性の絆を20%増やす",
       "parts": [
