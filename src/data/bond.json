@@ -1,12 +1,12 @@
 {
   "meta": {
-    "updated": "2026-11-01 08:36 UTC",
-    "servantCount": 471,
+    "updated": "2026-11-12 09:08 UTC",
+    "servantCount": 474,
     "cnServantCount": 447,
     "jpLatest": {
-      "no": 483,
-      "name": "タマモアリア",
-      "id": 406000
+      "no": 486,
+      "name": "松永久秀",
+      "id": 705500
     },
     "cnLatest": {
       "no": 458,
@@ -5211,6 +5211,39 @@
       "className": "骑阶",
       "rarity": 5,
       "face": "https://static.atlasacademy.io/JP/Faces/f_4060000.png"
+    },
+    {
+      "id": 2801400,
+      "no": 484,
+      "name": "卑弥呼＆壱与",
+      "nameJp": "卑弥呼＆壱与",
+      "cn": false,
+      "classId": "pretender",
+      "className": "伪装者",
+      "rarity": 5,
+      "face": "https://static.atlasacademy.io/JP/Faces/f_28014000.png"
+    },
+    {
+      "id": 406100,
+      "no": 485,
+      "name": "雑賀孫一",
+      "nameJp": "雑賀孫一",
+      "cn": false,
+      "classId": "rider",
+      "className": "骑阶",
+      "rarity": 4,
+      "face": "https://static.atlasacademy.io/JP/Faces/f_4061000.png"
+    },
+    {
+      "id": 705500,
+      "no": 486,
+      "name": "松永久秀",
+      "nameJp": "松永久秀",
+      "cn": false,
+      "classId": "berserker",
+      "className": "狂阶",
+      "rarity": 4,
+      "face": "https://static.atlasacademy.io/JP/Faces/f_7055000.png"
     }
   ],
   "ces": [
@@ -6164,6 +6197,10 @@
         },
         {
           "id": 406000,
+          "mask": -1
+        },
+        {
+          "id": 406100,
           "mask": -1
         }
       ]
@@ -7752,6 +7789,10 @@
           "mask": -1
         },
         {
+          "id": 204700,
+          "mask": -1
+        },
+        {
           "id": 1101600,
           "mask": -1
         },
@@ -7817,6 +7858,10 @@
         },
         {
           "id": 2801300,
+          "mask": -1
+        },
+        {
+          "id": 705500,
           "mask": -1
         }
       ]
@@ -8071,6 +8116,10 @@
         {
           "id": 406000,
           "mask": -1
+        },
+        {
+          "id": 406100,
+          "mask": 1
         }
       ]
     },
@@ -8558,6 +8607,10 @@
         },
         {
           "id": 2301200,
+          "mask": -1
+        },
+        {
+          "id": 406100,
           "mask": -1
         }
       ]
@@ -9549,6 +9602,10 @@
         {
           "id": 405900,
           "mask": -1
+        },
+        {
+          "id": 705500,
+          "mask": -1
         }
       ]
     },
@@ -10017,6 +10074,10 @@
         },
         {
           "id": 406000,
+          "mask": -1
+        },
+        {
+          "id": 2801400,
           "mask": -1
         }
       ]
